@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+/* Navbar  Style*/
+#navlogo{
+    height: 70px;
+}
+
+.navbar {
+    background-color:#fad645;
+    overflow: hidden;
+    height: 120px;
+    
+  }
+  
+  .navbar a {
+    font-family: 'ProximaNova-Light',sans-serif;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    
+    color: white;
+  }
+  
+  
+  #navitem{
+      padding-left: 550px;
+  }
+  /* Navbar  Style*/
+
+  /* Footer  Style*/
+
+  footer{
+    margin-top: auto;
+    background-color:#fad645;
+      height: 70px;
+      width: 100%;
+      position: absolute;
+      text-align:left;
+      left: 0;
+      bottom: 10px;
+      
+  }
+  .stickyfooter{
+      position: sticky;
+      top: 100%;
+  }
+
+  .img {
+   height: 70px;
+  }
+  
+  .fottertext {
+      padding-right: 40px;
+       display: inline-block;
+       font-family: 'ProximaNova-Light',sans-serif;
+       line-height: 70px; 
+       vertical-align: top;
+    font-size: 30px; }
+
+       .content{
+           display: flex;
+           justify-content: space-between
+       }
+  
+/* form styling */
+
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #eaebbe;  
+    border-radius: 15px ;  
+      
+}  
+#btn{
+    background-color: yellowgreen;
+    width: 80%;
+    height: 40px;
+    border-radius: 7%;
+    
+}
+h2{  
+text-align: center;  
+color: #091518;  
+padding: 20px;  
+}  
+label{  
+color: #313628;  
+font-size: 17px;  
+}  
+#Uname{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+  
+}  
+#formlog{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 17px;  
+padding-left: 7px;  
+color: blue;  
+
+
+}  
+span{  
+color: white;  
+font-size: 17px;  
+}  
+a{  
+float: right;  
+}  
+
+
+
+
+
+/* modal */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+/* set a style for all buttons*/
+.modalbtn {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px 20px 600px;
+    cursor: pointer;
+    width: 100%;
+}
+/*set styles for the cancel button*/
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #FF2E00;
+}
+.signupbtn{
+    padding: 14px 20px;
+    background-color:  #0d9223;
+}
+/*float cancel and signup buttons and add an equal width*/
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%
+}
+/*add padding to container elements*/
+.container {
+    padding: 16px;
+}
+/*define the modal’s background*/
+ 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+/*define the modal-content background*/
+ 
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+/*define the close button*/
+ 
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*define the close hover and focus effects*/
+/*  
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+} */
+ 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+/* image section */
+
+#imgsection{
+    height: 900px;
+    width: 900px;
+    margin:50px 0 20px 150px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+
+}
+
+.img-img{
+    height: 30px;
+    width: 10px;
+    background-color: turquoise;
+    float: left;
+    margin: 10px;
+}
+.searchBar{
+    margin-left: 800px;
+}
+
+/* .singleimg{
+    
+  
+} */
+
+#modal01{
+    height: 400px;
+    width: 70%;
+    top: 20%;
+    left: 15%; 
+    /* overflow: hidden; */
+    object-fit: cover;
+   
+
+    
+    
+}
+#modal01 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
